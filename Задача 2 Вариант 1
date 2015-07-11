@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+$(document).ready(function () {
+$("img").mouseenter(function () {
+$("img").hide();
+});
+});
+</script>
+</head>
+<body>
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5ftTW9QlHqNC4sUGxVIH5XT8yZtX8IUv-Hj83IpbIoiEc3ncW" alt="Молодец.">
+</body>
+</html>
