@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script>  
+<script>
+      $(document).ready(function () {
+         $("[align*='center']").dblclick(function () {
+		 $(this).hide();
+	});
+         $("button").dblclick(function () {
+		$("[align*='center']").show();
+	});
+	
+     });
+
+</script> 
+</head> 
+<body> 
+<p align="center">Элемент по центру.</p>
+<p align="left">Элемент слева.</p>
+<p align="center">Ещё один элемент по центру.</p>
+<p align="right">Элемент.</p>
+<br>
+<button id="btn2">Отобразить исчезнувшие элементы</button>
+</body> 
+</html> 
