@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script type="text/javascript">
+var i =1;
+$(document).ready(function () 
+{
+$("#but1").click(function () 
+{
+$("[href]").hide();
+});
+$("#but2").click(function () 
+{
+
+$("[href]").show();
+
+});
+});
+</script>
+</head>
+
+<body>
+<h2>This is a heading 2</h2>
+<p><a href="Url1">Элемент с атрибутом href</a></p>
+<p>This is another paragraph.</p>
+<button id="but1">Click me</button>
+<button id="but2">Click me for show</button>
+</body>
+
+</html>
