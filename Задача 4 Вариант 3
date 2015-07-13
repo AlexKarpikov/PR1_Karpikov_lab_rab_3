@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+<script> 
+    $(document).ready(function () { 
+        $("button").click(function () { 
+		$("#div1[align|='right'").delay(50).animate({left: '-40px' });
+                $("#div2").text("Параграф 1");
+                $("#div3[align|='right'").delay(50).animate({left: '-40px' });
+                $("#div4").text("Параграф 3");
+                $("#div5[align|='right'").delay(50).animate({left: '-40px' });     
+                $("#div6").text("Параграф 5");
+	});     
+    }); 
+</script>  
+</head> 
+<body> 
+<button>Извлечь и присвоить</button> <br><br>
+<div align="right" id="div1" style="width:180px;height:20px;position:absolute">Параграф 1</div> <br>
+<div align="right" id="div2" style="width:180px;height:20px;position:absolute">Параграф 2</div><br>
+<div align="right" id="div3" style="width:180px;height:20px;position:absolute;">Параграф 3</div><br>
+<div align="right" id="div4" style="width:180px;height:20px;position:absolute">Параграф 4</div><br>
+<div align="right" id="div5" style="width:180px;height:20px;position:absolute;">Параграф 5</div><br>
+<div align="right" id="div6" style="width:180px;height:20px;position:absolute;">Параграф 6</div><br>
+</body> 
+</html>
