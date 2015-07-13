@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>	 		
+	$(document).ready(function () {
+		$("button").click(function () {
+		var i=1;
+		do{
+		$(".p2").fadeToggle(2000);
+		i++;
+		if(i%2==0){
+			$(".p1").fadeToggle(2000);}
+		}
+		while(i<2000)
+		$(".p1").hide();
+		});
+});
+</script>
+</head>
+<body>
+<p class="p1"style="display:none">Параграф 1.</p>
+<p class="p2" style="display:none">Параграф 2.</p>
+<p class="p1"style="display:none">Параграф 3.</p>
+<p class="p2" style="display:none">Параграф 4.</p>
+<p class="p1"style="display:none">Параграф 5.</p>
+<p class="p2" style="display:none">Параграф 6.</p>
+<p class="p1"style="display:none">Параграф 7.</p>
+<p class="p2" style="display:none">Параграф 8.</p>
+<p class="p1"style="display:none">Параграф 9.</p>
+<p class="p2" style="display:none">Параграф 10.</p>
+</body>
+<br>
+<button>Click on button</button>
+</html>
